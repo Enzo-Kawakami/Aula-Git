@@ -18,7 +18,7 @@ public class Ex05 {
             valor = (money - 500);
             IO.println("Voce ganhou: R$"+valor +" a mais");
         }else
-            IO.println("Voce ta Gastando?");
+            IO.println("Tigrinho FDP");
 
     }
 }
