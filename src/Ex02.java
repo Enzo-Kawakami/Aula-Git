@@ -20,6 +20,7 @@ public class Ex02 {
             case "X-Ratão":
                 IO.println(nome +" Banheiro logo a sua direita");
                 IO.println("Valor do Prato: R$999,99");
+                break;
 
             default:
                 IO.println("Não temos no Cardapio");

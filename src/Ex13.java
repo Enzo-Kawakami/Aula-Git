@@ -7,10 +7,14 @@ public class Ex13 {
         double GB = sc.nextDouble();
         IO.println("Quanto que tu usou de Dados(em GB)");
         double gb = sc.nextDouble();
+        double valor = (gb/GB)*100;
 
-        double valor = (GB/gb);
+        if (valor <80){
+            IO.println("Uso Dentro do Limite");
+        } else if (valor ==80) {
+            IO.println("");
 
-        IO.println(valor);
+        }
 
     }
 }
