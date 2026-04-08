@@ -13,8 +13,8 @@ public class Ex02 {
                 IO.println(nome +" Aproveite seu Miojo");
                 IO.println("Valor do Prato: R$200,00");
                 break;
-            case "Ratazana":
-                IO.println(nome +" Aproveite sua Ratazana");
+            case "Bife":
+                IO.println(nome +" Aproveite seu Bife");
                 IO.println("Valor do Prato: R$199,99");
                 break;
             case "X-Ratão":
