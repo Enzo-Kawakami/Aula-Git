@@ -10,11 +10,12 @@ public class Ex13 {
         double valor = (gb/GB)*100;
 
         if (valor <80){
-            IO.println("Uso Dentro do Limite");
-        } else if (valor ==80) {
-            IO.println("");
+            IO.println(valor+"%/Uso Dentro do Limite");
+        } else if (valor >=80 & valor <100) {
+            IO.println(valor+"%/Atenção: Voce esta Proximo do Limite");
 
-        }
+        }else
+            IO.println(valor+"%/Voce Atingiu o Limite");
 
     }
 }
